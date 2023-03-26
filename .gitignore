@@ -6,7 +6,7 @@
 /frontend/build
 
 # misc
-/backend/config/.env
+/config/.env
 
 
 npm-debug.log*
