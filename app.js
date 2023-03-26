@@ -14,9 +14,9 @@ app.use(cors({
 app.use(cookieParser());
 app.use(express.urlencoded({limit: "100mb", extended: true }));
 
-app.use('api/v1', products);
-app.use('api/v1',auth);
-app.use('api/v1', order);
+app.use('/api/v1', products);
+app.use('/api/v1',auth);
+app.use('/api/v1', order);
 
 app.use(errorMiddleware);
 module.exports = app
