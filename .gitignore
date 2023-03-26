@@ -6,7 +6,7 @@
 /frontend/build
 
 # misc
-/config/.env
+/shopit-backend/config/.env
 
 
 npm-debug.log*
